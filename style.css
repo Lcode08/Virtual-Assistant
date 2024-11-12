@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+
+#logo{
+    width: 20vw;
+}
+
+h1{
+    color: white;
+    font-family: "Protest Guerrilla", system-ui;
+}
+
+#name{
+    color: rgb(212, 43, 122);
+    font-size: 40px;
+}
+
+#VA{
+    color: rgb(43, 206, 212);
+    font-size: 45px;
+}
+
+#voice{
+    display: none;
+    width: 150px;
+}
+
+#btn{
+    width: 30%;
+    background: linear-gradient(to right, rgb(21, 145, 207),rgb(201, 41, 116));
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(21, 145, 207),2px 2px 10px rgb(201, 41, 116);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow:  2px 2px 20px rgb(21, 145, 207),2px 2px 20px rgb(201, 41, 116);
+    letter-spacing: 2px;
+}
+
+/* Dark Mode Specific Styles */
+.light-mode {
+    background: whitesmoke; /* Light mode background */
+}
+
+.light-mode h1{
+    color: black; /* Light mode text color */
+}
+
+.light-mode #name {
+    color: rgb(212, 43, 122); /* Adjust name color for light mode */
+}
+
+.light-mode #VA {
+    color: rgb(43, 206, 212); /* Adjust VA color for light mode */
+}
+
+.light-mode #btn {
+    background: linear-gradient(to right, rgb(201, 41, 116), rgb(21, 145, 207)); /* Light mode button gradient */
+    color: black; /* Light mode text color */
+    box-shadow: 2px 2px 10px rgb(201, 41, 116), 2px 2px 10px rgb(21, 145, 207); /* Adjust light mode shadow */
+}
+
+.light-mode #btn:hover {
+    box-shadow: 2px 2px 20px rgb(201, 41, 116), 2px 2px 20px rgb(21, 145, 207);
+}
+
+
+#taskListContainer {
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifted effect */
+}
+
+#taskListContainer p {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ff69b4; /* Matches the virtual assistant's color scheme */
+}
+
+#taskList {
+    list-style-type: decimal;
+    padding-left: 15px;
+    margin: 0;
+}
+
+#taskList li::marker {
+    color: whitesmoke; /* Set color for the numbers */
+    font-weight: bold;
+}
+
+#taskList li {
+    background-color: rgba(0, 0, 0, 0.3); /* Task item background */
+    padding: 8px;
+    font-size: 20px;
+    margin: 5px 0;
+    border-radius: 4px;
+    text-align: left;
+    transition: background 0.3s;
+    color:rgb(43, 206, 212);
+}
+
+#taskList li:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker on hover */
+    cursor:auto;
+}
