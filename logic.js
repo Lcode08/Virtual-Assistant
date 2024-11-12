@@ -331,7 +331,7 @@ function takeCommand(message) {
         } else {
             speak("Sir, you already have a task list for today. Do you want to add one more task?");
         }
-    } else if (message.includes("add this task")) {
+    } else if (message.includes("add this task") || message.includes("at this task")) {
         let taskToAdd = message.replace("add this task", "").trim();
 
         // Remove specific symbols: ., ,, !, ", '
