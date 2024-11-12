@@ -349,7 +349,7 @@ function takeCommand(message) {
     else if (message.includes("hide task list")){
         hideTaskList();
     }
-    else if (message.includes("clear all tasks")) {
+    else if (message.includes("clear all tasks") || message.includes("clear all task")) {
         clearTasks();
     } else if (message.includes("delete task")) {
         let taskToDelete = message.replace("delete task", "").trim();
