@@ -333,6 +333,7 @@ function takeCommand(message) {
         }
     } else if (message.includes("add this task") || message.includes("at this task")) {
         let taskToAdd = message.replace("add this task", "").trim();
+         taskToAdd = message.replace("at this task", "").trim();
 
         // Remove specific symbols: ., ,, !, ", '
          taskToAdd = taskToAdd.replace(/[.,!\"']/g, "");
