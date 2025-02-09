@@ -17,7 +17,8 @@ const musicTracks = [
     "assets/Genius 2018 - Tera Fitoor.mp3", 
     "assets/Dekhha Tenu_320(PagalWorld.com.sb).mp3",
     "assets/Tere Sang Ishq Hua_320(PagalWorld.com.sb).mp3",
-    "assets/Kabir_Singh__Bekhayali___Shahid_Kapoor%2CKiara_Advani__Sandeep_Reddy_Vanga___Sachet-Parampara___Irshad(128k).mp3"
+    "assets/Kabir_Singh__Bekhayali___Shahid_Kapoor%2CKiara_Advani__Sandeep_Reddy_Vanga___Sachet-Parampara___Irshad(128k).mp3",
+    "assets/Sahiba.mp3"
 ];
 
 let currentTrackIndex = 0; // Index to keep track of the current track
