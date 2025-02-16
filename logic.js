@@ -18,7 +18,15 @@ const musicTracks = [
     "assets/Dekhha Tenu_320(PagalWorld.com.sb).mp3",
     "assets/Tere Sang Ishq Hua_320(PagalWorld.com.sb).mp3",
     "assets/Kabir_Singh__Bekhayali___Shahid_Kapoor%2CKiara_Advani__Sandeep_Reddy_Vanga___Sachet-Parampara___Irshad(128k).mp3",
-    "assets/Sahiba.mp3"
+    "assets/Sahiba.mp3",
+    "assets/Milne Hai Mujhse Aayi Aashiqui 2 128 Kbps.mp3",
+    "assets/Tera Chehra Sanam Teri Kasam 128 Kbps.mp3",
+    "assets/128-Sanam Teri Kasam - Sanam Teri Kasam 128 Kbps.mp3",
+    "assets/Hangover - Kick 320 Kbps.mp3",
+    "assets/Rabba-Janda-MassTamilan.dev.mp3",
+    "assets/Tera Yaar Hoon Main - Sonu Ke Titu Ki Sweety 320 Kbps.mp3",
+    "assets/Channa Mereya - Ae Dil Hai Mushkil 320 Kbps.mp3",
+    "assets/Akashi-Chandra-Chandanya.mp3"
 ];
 
 let currentTrackIndex = 0; // Index to keep track of the current track
